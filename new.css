@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    position: relative;
+    top: 9%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .wrapper a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+ .wrapper a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapper a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  .wrapper a:hover{
+    color: #fff;
+  }
+  
+  .wrapper a:hover:after{
+    width: 100%;
+  }
+
+  .footer a:hover{
+    opacity: .5;
+  }
+
+
+
+
+ 
+
